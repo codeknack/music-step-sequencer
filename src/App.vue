@@ -35,10 +35,10 @@ import SoundTracks from "./components/SoundTracks.vue";
 import SoundControls from "./components/SoundControls.vue";
 import SoundPresets from "./components/SoundPresets.vue";
 
-const kick = new Howl({src: ["./assets/sounds/kick.mp3",],});
-const snare = new Howl({src: ["./assets/sounds/snare.mp3",],});
-const hihat = new Howl({src: ["./assets/sounds/hihat.mp3",],});
-const shaker = new Howl({src: ["./assets/sounds/shaker.mp3",],});
+const kick = new Howl({src: ["https://raw.githubusercontent.com/codeknack/music-step-sequencer/master/src/assets/sounds/kick.mp3",],});
+const snare = new Howl({src: ["https://raw.githubusercontent.com/codeknack/music-step-sequencer/master/src/assets/sounds/snare.mp3",],});
+const hihat = new Howl({src: ["https://raw.githubusercontent.com/codeknack/music-step-sequencer/master/src/assets/sounds/hihat.mp3",],});
+const shaker = new Howl({src: ["https://raw.githubusercontent.com/codeknack/music-step-sequencer/master/src/assets/sounds/shaker.mp3",],});
 
 let audioContext = new AudioContext();
 
